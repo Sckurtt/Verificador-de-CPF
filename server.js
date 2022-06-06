@@ -6,7 +6,7 @@ const path = require("path");
 const cpf = require(path.join(__dirname, 'modules_js', 'verification'));
 const app = express();
 // Const Config
-const port = 8080;
+const port = process.env.PORT || 8000;
 const routesApp = ["/", "/v1/:cpf"];
 const pathDir = {
     "public": (path.join(__dirname, 'public')),
@@ -44,6 +44,6 @@ app.get(routesApp[1], (req, res)=>{
 app.get('*', (req,res)=>{
     res.redirect('/');
 })
-app.listen(port, (err)=>{
+app.listen(process.env.PORT || 3000, (err)=>{
     err ? console.log(err) : console.log(`Servidor sendo executado na porta ${port}`)
 });
