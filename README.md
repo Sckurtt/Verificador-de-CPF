@@ -1,4 +1,4 @@
-# Verificador-de-CPF
+# Verificador de CPF
 
 ### Este App utiliza o algoritimo de checagem de CPF
 
