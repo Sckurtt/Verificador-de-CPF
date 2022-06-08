@@ -18,3 +18,9 @@
 #### Para testar o funcionamento do App => https://cpf-checker.herokuapp.com/
 
 ![image](https://user-images.githubusercontent.com/36743233/172264500-2f200a12-e6ef-4f22-bea7-57d4f4a010f9.png)
+
+
+### Informações sobre o desenvvolvimento 
+
+#### Back-end => NodeJs com Express
+#### Front-end => HTML, CSS, JS + Axios
