@@ -6,7 +6,7 @@
 
 ### API de consulta de CPF
 
-#### Este App consome sua própria API, para utlilizar você dee informar o CPF na url da seguinte maneira:
+#### Este App consome sua própria API, para utlilizar você deve informar o CPF na url da seguinte maneira:
 #### https://cpf-checker.herokuapp.com/v1/00000000000 
 
 <ul>
